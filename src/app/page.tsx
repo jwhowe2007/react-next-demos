@@ -1,10 +1,9 @@
-import MortgageAnalyzer from "./website";
+import App from "./testmodule";
 
 export default function Page() {
   return <>
     <div>
-      <h1>Hello, Next.js!</h1>
-      <MortgageAnalyzer></MortgageAnalyzer>
+      <App></App>
     </div>
   </>
 }
